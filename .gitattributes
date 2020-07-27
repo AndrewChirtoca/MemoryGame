@@ -1,0 +1,47 @@
+# vim: ft=config
+
+# have all line endings as is, never modify
+# by default
+* -text
+
+# Code: Force line endings for these files to be LF
+*.cs diff=csharp eol=lf+text
+*.c   text eol=lf
+*.cpp text eol=lf
+*.h   text eol=lf
+*.hh  text eol=lf
+*.m   text eol=lf
+*.mm  text eol=lf
+
+# Sctipts
+*.sh  text eol=lf
+*.py  text eol=lf
+*.rb  text eol=lf
+*.lua text eol=lf
+*.rb  text eol=lf
+
+# Git
+.gitignore      text eol=lf
+.gitmodules     text eol=lf
+.gitattributes  text eol=lf
+
+# Win specific
+*.bat  eol=crlf
+
+# Normalize these files (i.e convert to CRLF on win and back on commit, store LF)
+*.txt text
+*.md text
+*.MD text
+
+# Dont touch these files, treat as bin, but not LFS
+#*.ma -text
+#*.obj -text
+
+# ===== Unity ===============================
+
+*.meta  eol=lf
+*.asset eol=lf
+*.unity merge=unityyamlmerge
+*.prefab merge=unityyamlmerge
+*.physicsMaterial2D merge=unityyamlmerge
+
