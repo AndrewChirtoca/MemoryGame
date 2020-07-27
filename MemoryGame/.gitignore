@@ -1,0 +1,21 @@
+# Default generated stuff
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild//[Bb]uilds/
+/QCAR/
+/UWP
+
+# Unity3D Generated File On Crash Reports
+/sysinfo.txt
+
+/Assets/StreamingAssets/build_info.txt
+/Assets/StreamingAssets/build_info.txt.meta
+
+# VS Code plugin
+/Assets/VSCode
+/Assets/VSCode.meta
+/.vscode/
+/.vs/
+
+Build*
